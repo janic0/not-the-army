@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-bg-primary w-full sm:h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Achtung!</title>
+</head>
+
+<body class="w-full h-full p-9 sm:flex items-center justify-center text-fg-primary">
+
+    <div class="max-w-sm relative">
+        <div class="bg-bg-secondary px-6 py-8">
+            <p>Dies ist nicht der Dienstmanager der Armee.</p>
+            <a href="https://www.portal-armee.ch/msa-portal-ui/home" class="w-full">
+                <button
+                    class="w-full mt-2 px-4 py-2 bg-fg-primary text-bg-primary flex items-center gap-2 justify-center hover:bg-accent-primary hover:text-fg-primary transition-colors duration-300">
+                    Zum Dienstmanager wechseln
+                    <img class="w-4" src="./assets/arrow-right.svg" alt="arrow right">
+                </button>
+            </a>
+        </div>
+        <div class="bg-bg-secondary px-6 py-6 mt-4">
+            <p>Achten Sie beim Besuch des Dienstmanagers der Armee für Ihre Sicherheit stets auf diese
+                Faktoren:</p>
+            <ul class="list-disc mt-4 space-y-4">
+                <li class="ml-4">Der letzte Teil der URL in der Suchleiste ist entweder <strong>armee.ch</strong>,
+                    <strong>portal-armee.ch</strong> oder
+                    <strong>admin.ch</strong>
+                </li>
+                <li class="ml-4">
+                    <div class="flex">
+                        Die Verbindung ist sicher über HTTPS verschlüsselt.
+                        <img src="./assets/lock.svg">
+                    </div>
+                </li>
+                <li class="ml-4">
+                    Die E-Mail des Absenders bei Nachrichten des Dienstmanagers endet immer in
+                    <strong>@vtg.admin.ch</strong>
+                </li>
+            </ul>
+        </div>
+        <a class="left-0 right-0 opacity-50  -bottom-12 text-center absolute text-sm"
+            href="https://github.com/janic0/not-the-army">
+            <button class="hover:underline">
+                View Source
+            </button>
+        </a>
+    </div>
+
+</body>
+
+</html>
